@@ -3,7 +3,6 @@ module CSFML [system] {
     header "/usr/local/include/SFML/Window.h"
     header "/usr/local/include/SFML/Graphics.h"
     header "/usr/local/include/SFML/Audio.h"
-    header "/usr/local/include/SFML/Network.h"
     
     //header "/usr/include/SDL2/SDL_image.h"
     //header "/usr/include/SDL2/SDL_mixer.h"
@@ -16,6 +15,5 @@ module CSFML [system] {
 	link "libcsfml-window"
 	link "libcsfml-graphics"
 	link "libcsfml-audio"
-	link "libcsfml-network"
     export *
 }
