@@ -1,5 +1,8 @@
-# Package
+# Info
 
+This repo is used for the Swift SFML binding, wich is available here: https://github.com/Scellow/SFMLSwift
+
+# Package
 
 ```swift
 // ...
