@@ -1,0 +1,14 @@
+// basics
+module CSFML [system] {
+	header "/usr/local/include/SFML/System.h"
+	header "/usr/local/include/SFML/Window.h"
+	header "/usr/local/include/SFML/Graphics.h"
+	header "/usr/local/include/SFML/Audio.h"
+
+	link "sfml-system"
+	link "sfml-window"
+	link "sfml-graphics"
+	link "sfml-audio"
+
+    export *
+}
