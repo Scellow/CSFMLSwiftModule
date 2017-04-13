@@ -12,10 +12,10 @@ module CSFML [system] {
     //header "/usr/include/SDL2/SDL_net.h"
     //header "/usr/include/SDL2/SDL_ttf.h"
     //header "/usr/include/SDL2/SDL_syswm.h"
-    link "csfml-graphics"
-    link "csfml-window"
-    link "csfml-system"
-    link "csfml-audio"
-    link "csfml-network"
+	link "libcsfml-system"
+	link "libcsfml-window"
+	link "libcsfml-graphics"
+	link "libcsfml-audio"
+	link "libcsfml-network"
     export *
 }
